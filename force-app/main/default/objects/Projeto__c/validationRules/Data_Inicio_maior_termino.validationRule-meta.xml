@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Inicio_maior_termino</fullName>
+    <active>true</active>
+    <errorConditionFormula>Data_inicio__c &gt; Data_termino__c</errorConditionFormula>
+    <errorDisplayField>Data_inicio__c</errorDisplayField>
+    <errorMessage>A data de início não pode ser maior que a data de término</errorMessage>
+</ValidationRule>
